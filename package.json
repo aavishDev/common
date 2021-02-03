@@ -11,7 +11,7 @@
     "clean": "del ./dist/*",
     "build": "npm run clean && tsc",
     "git-acpm": "git add . && git commit -m \"Updates\" && git push origin master",
-    "pub": "npm run git-acpm && npm run build && npm version patch && npm publish"
+    "pub": "npm run build && np"
   },
   "keywords": [],
   "author": "",
